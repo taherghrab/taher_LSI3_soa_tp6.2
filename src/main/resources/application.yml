@@ -1,0 +1,17 @@
+# Configuration pour la base de données H2:
+spring:
+  datasource:
+    url: jdbc:h2:mem:banque
+#driverClassName: org.h2.Driver
+#username: taher
+#password: taher
+
+# Activation de la console H2:
+h2:
+  console:
+    enabled: true
+    path: /h2-console
+
+# Configuration pour le serveur Tomcat embarqué:
+server:
+  port: 8082
